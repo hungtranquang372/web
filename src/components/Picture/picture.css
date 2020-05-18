@@ -1,0 +1,18 @@
+.img-container{
+    position: relative;
+    height: 100%;
+}
+/* bootstrap da co z- index =-1 nen ko can class img--thumbnail */
+/* .img-thumbnail{
+   
+    z-index: -1;
+} */
+.link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:var(--primaryColor);;
+    border: 1px solid white;
+    
+}
